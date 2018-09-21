@@ -1,6 +1,6 @@
 {
   "name": "create-graphic",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Draws on a canvas element with the given size and function and recieves the result",
   "author": "Nik Rowell <nik@nikrowell.com>",
   "license": "MIT",
