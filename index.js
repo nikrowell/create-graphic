@@ -7,7 +7,7 @@ export default function createGraphic(size, draw) {
 
   canvas.width = width;
   canvas.height = height;
-  draw.call(context, context, width, height);
+  const result = draw.call(context, context, width, height);
 
-  return context;
+  return typeof result === 'undefined' ? context : result;
 };
