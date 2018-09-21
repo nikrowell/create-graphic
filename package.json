@@ -11,8 +11,12 @@
   },
   "keywords": [
     "canvas",
-    "grahpic",
-    "webgl"
+    "canvas-2d",
+    "canvas-context",
+    "webgl",
+    "webgl-textures",
+    "graphic",
+    "particles"
   ],
   "scripts": {
     "test": "echo 'You should be unit testing'"
