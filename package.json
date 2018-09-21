@@ -1,0 +1,20 @@
+{
+  "name": "create-graphic",
+  "version": "0.1.0",
+  "description": "Draws on a canvas element with the given size and function and recieves the result",
+  "author": "Nik Rowell <nik@nikrowell.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikrowell/create-graphic.git"
+  },
+  "keywords": [
+    "canvas",
+    "grahpic",
+    "webgl"
+  ],
+  "scripts": {
+    "test": "echo 'You should be unit testing'"
+  }
+}
