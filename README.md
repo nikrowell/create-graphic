@@ -2,6 +2,14 @@
 
 A simple function for drawing on a canvas element and receiving the result. Useful for programatically-generated static graphics, WebGL textures (think particles) etc.
 
+## Install
+
+```bash
+npm install create-graphic
+```
+
+## Use
+
 ```js
 import createGraphic from 'create-graphic';
 
@@ -17,6 +25,8 @@ const graphic = createGraphic(256, (context, width, height) => {
   context.fillRect(0, 0, width, width);
 });
 ```
+
+<img src="https://d1wo5a6yt2u5up.cloudfront.net/create-graphic-example.png" alt="">
 
 The `draw` function will return the canvas context by default, but you can return anything to override this. The example below also demonstrates defining both width and height, and using the draw function context as the, um, `context` when not using an arrow function.
 
