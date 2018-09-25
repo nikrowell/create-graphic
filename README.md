@@ -1,6 +1,6 @@
 # create-graphic
 
-A simple function for drawing on a canvas element and receiving the result. Useful for programatically-generated static graphics, WebGL textures (think particles) etc.
+A simple function for drawing on a canvas element and receiving the result. Useful for programmatically-generated static graphics, WebGL textures (think particles) etc.
 
 ## Install
 
