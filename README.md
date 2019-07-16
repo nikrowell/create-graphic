@@ -26,7 +26,7 @@ const graphic = createGraphic(256, (context, width, height) => {
 });
 ```
 
-<img src="https://d1wo5a6yt2u5up.cloudfront.net/create-graphic-example.png" alt="">
+<img src="https://d1wo5a6yt2u5up.cloudfront.net/github/create-graphic-example.png" alt="">
 
 The `draw` function will return the canvas context by default, but you can return anything to override this. The example below also demonstrates defining both width and height, and using the draw function context as the, um, `context` when not using an arrow function.
 
